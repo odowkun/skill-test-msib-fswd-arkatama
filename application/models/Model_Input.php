@@ -5,7 +5,6 @@
 	
 		function input(){
 			$input=$this->input->post('input');
-			$create_at=$this->input->post('create_at');
 			$input = strtoupper($input);
 
 			//mencari name
